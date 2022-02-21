@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moviesnpm%20i%20gh-pages/static/css/main.4c63567e.css",
+    "main.js": "/moviesnpm%20i%20gh-pages/static/js/main.e9ab3ea5.js",
+    "index.html": "/moviesnpm%20i%20gh-pages/index.html",
+    "main.4c63567e.css.map": "/moviesnpm%20i%20gh-pages/static/css/main.4c63567e.css.map",
+    "main.e9ab3ea5.js.map": "/moviesnpm%20i%20gh-pages/static/js/main.e9ab3ea5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c63567e.css",
+    "static/js/main.e9ab3ea5.js"
+  ]
+}
