@@ -1,0 +1,49 @@
+.popular-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 0.8rem 0;
+}
+
+img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 1rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.filter-container {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-container button {
+  margin-right: 2rem;
+  min-width: 5rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: rgb(65, 98, 168);
+  border: 2px solid rgb(65, 98, 168);
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.active {
+  background: rgb(65, 98, 168);
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
