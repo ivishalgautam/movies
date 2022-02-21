@@ -15,12 +15,12 @@ function App() {
 
   const fetchPopular = async () => {
     const data = await fetch(
-      "https://api.themoviedb.org/3/movie/550?api_key=77dc76215c27f363d4b57f180056f7bb"
+      "https://api.themoviedb.org/3/movie/popular?api_key=77dc76215c27f363d4b57f180056f7bb&language=en-US&page=1"
     );
     const movies = await data.json();
     setPopular(movies.results);
     setFiltered(movies.results);
-    console.log(movies.results);
+    console.log(movies);
   };
 
   return (
